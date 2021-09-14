@@ -1,0 +1,80 @@
+###
+### Name: Increase speed for characters
+### Version: 1.1
+### Author: Game Specifications
+### Categories: cheat, char-other
+###
+### License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+### License URL: https://creativecommons.org/licenses/by-sa/4.0/
+###
+
+###
+### Movement speed is very crucial for many characters in the game. We've increased the base speed of all playable characters.
+### Make sure you use them 
+###
+### Special Thanks to:
+### Game Specifications
+###
+
+# Gunner Adjustments
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxWalkSpeed,0,,(Value=500,BaseValue=500)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxSprintSpeed,0,,(Value=930,BaseValue=930)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxWalkSpeedCrouched,0,,(Value=300,BaseValue=300)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxInjuredSprintSpeed,0,,(Value=270,BaseValue=270)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxWalkSpeedInjured,0,,(Value=250,BaseValue=250)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxLadderAscendSpeed,0,,(Value=230,BaseValue=230)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxLadderDescendSpeed,0,,(Value=200,BaseValue=200)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Enter.AS_Ladder_Enter,RateScale,0,,1.1
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Enter_Top.AS_Ladder_Enter_Top,RateScale,0,,1.1
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Exit.AS_Ladder_Exit,RateScale,0,,1.1
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Exit_Top.AS_Ladder_Exit_Top,RateScale,0,,1.1
+
+# Beastmaster Adjustments
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPChar_Beastmaster.Default__BPChar_Beastmaster_C:CharMoveComp,MaxWalkSpeed,0,,(Value=495,BaseValue=495)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPChar_Beastmaster.Default__BPChar_Beastmaster_C:CharMoveComp,MaxSprintSpeed,0,,(Value=935,BaseValue=935)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPChar_Beastmaster.Default__BPChar_Beastmaster_C:CharMoveComp,MaxWalkSpeedCrouched,0,,(Value=300,BaseValue=300)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPChar_Beastmaster.Default__BPChar_Beastmaster_C:CharMoveComp,MaxInjuredSprintSpeed,0,,(Value=255,BaseValue=255)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPChar_Beastmaster.Default__BPChar_Beastmaster_C:CharMoveComp,MaxWalkSpeedInjured,0,,(Value=245,BaseValue=245)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPChar_Beastmaster.Default__BPChar_Beastmaster_C:CharMoveComp,MaxLadderAscendSpeed,0,,(Value=225,BaseValue=225)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/BPChar_Beastmaster.Default__BPChar_Beastmaster_C:CharMoveComp,MaxLadderDescendSpeed,0,,(Value=185,BaseValue=185)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Enter.AS_Ladder_Enter,RateScale,0,,1.1
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Enter_Top.AS_Ladder_Enter_Top,RateScale,0,,1.1
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Exit.AS_Ladder_Exit,RateScale,0,,1.1
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Exit_Top.AS_Ladder_Exit_Top,RateScale,0,,1.1
+
+# Operative Adjustments
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Character/BPChar_Operative.Default__BPChar_Operative_C:CharMoveComp,MaxWalkSpeed,0,,(Value=500,BaseValue=500)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Character/BPChar_Operative.Default__BPChar_Operative_C:CharMoveComp,MaxSprintSpeed,0,,(Value=950,BaseValue=950)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Character/BPChar_Operative.Default__BPChar_Operative_C:CharMoveComp,MaxWalkSpeedCrouched,0,,(Value=310,BaseValue=310)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Character/BPChar_Operative.Default__BPChar_Operative_C:CharMoveComp,MaxInjuredSprintSpeed,0,,(Value=245,BaseValue=245)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Character/BPChar_Operative.Default__BPChar_Operative_C:CharMoveComp,MaxWalkSpeedInjured,0,,(Value=235,BaseValue=235)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Character/BPChar_Operative.Default__BPChar_Operative_C:CharMoveComp,MaxLadderAscendSpeed,0,,(Value=230,BaseValue=230)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Character/BPChar_Operative.Default__BPChar_Operative_C:CharMoveComp,MaxLadderDescendSpeed,0,,(Value=190,BaseValue=190)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Enter.AS_Ladder_Enter,RateScale,0,,1.2
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Enter_Top.AS_Ladder_Enter_Top,RateScale,0,,1.2
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Exit.AS_Ladder_Exit,RateScale,0,,1.2
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Exit_Top.AS_Ladder_Exit_Top,RateScale,0,,1.2
+
+# Siren Adjustments
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/BPChar_Siren.Default__BPChar_Siren_C:CharMoveComp,MaxWalkSpeed,0,,(Value=503,BaseValue=503)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/BPChar_Siren.Default__BPChar_Siren_C:CharMoveComp,MaxSprintSpeed,0,,(Value=950,BaseValue=950)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/BPChar_Siren.Default__BPChar_Siren_C:CharMoveComp,MaxWalkSpeedCrouched,0,,(Value=306,BaseValue=306)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/BPChar_Siren.Default__BPChar_Siren_C:CharMoveComp,MaxInjuredSprintSpeed,0,,(Value=240,BaseValue=240)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/BPChar_Siren.Default__BPChar_Siren_C:CharMoveComp,MaxWalkSpeedInjured,0,,(Value=230,BaseValue=230)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/BPChar_Siren.Default__BPChar_Siren_C:CharMoveComp,MaxLadderAscendSpeed,0,,(Value=235,BaseValue=235)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Character/BPChar_Siren.Default__BPChar_Siren_C:CharMoveComp,MaxLadderDescendSpeed,0,,(Value=195,BaseValue=195)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Enter.AS_Ladder_Enter,RateScale,0,,1.2
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Enter_Top.AS_Ladder_Enter_Top,RateScale,0,,1.2
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Exit.AS_Ladder_Exit,RateScale,0,,1.2
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/Animation/Generic/Ladders/3rd/AS_Ladder_Exit_Top.AS_Ladder_Exit_Top,RateScale,0,,1.2
+
+# Generic Ladder Animation Adjustments
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/Animation/Generic/Ladders/1st/AS_Ladder_Descend_Exit.AS_Ladder_Descend_Exit,RateScale,0,,1.2
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/Animation/Generic/Ladders/1st/AS_Ladder_Enter.AS_Ladder_Enter,RateScale,0,,1.2
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/Animation/Generic/Ladders/1st/AS_Ladder_Enter_Top.AS_Ladder_Enter_Top,RateScale,0,,1.2
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/Animation/Generic/Ladders/1st/AS_Ladder_Exit.AS_Ladder_Exit,RateScale,0,,0.9
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/_Shared/Animation/Generic/Ladders/1st/AS_Ladder_Exit_Top.AS_Ladder_Exit_Top,RateScale,0,,1.2
+
+# Iron Bear Adjustments
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/BPChar_IronBear.Default__BPChar_IronBear_C:CharMoveComp,MaxWalkSpeed,0,,(Value=510,BaseValue=510)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/IronBear/BPChar_IronBear.Default__BPChar_IronBear_C:CharMoveComp,MaxSprintSpeed,0,,(Value=710,BaseValue=710)
