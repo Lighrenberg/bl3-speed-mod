@@ -18,7 +18,7 @@
 
 # Gunner Adjustments
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxWalkSpeed,0,,(Value=500,BaseValue=500)
-SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxSprintSpeed,0,,(Value=930,BaseValue=930)
+SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxSprintSpeed,0,,(Value=1100,BaseValue=930)
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxWalkSpeedCrouched,0,,(Value=300,BaseValue=300)
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxInjuredSprintSpeed,0,,(Value=270,BaseValue=270)
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/BPChar_Gunner.Default__BPChar_Gunner_C:CharMoveComp,MaxWalkSpeedInjured,0,,(Value=250,BaseValue=250)
